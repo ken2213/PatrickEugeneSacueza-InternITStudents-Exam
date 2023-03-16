@@ -10,6 +10,7 @@ import dragDots from './drag-dots.svg';
 import Modal from './Modal';
 import "./modal_css.css";
 
+
 function Home() {
   const [varData, setData] = useState(data);
   const [checkedData, setCheckedData] = useState([]);
