@@ -1,0 +1,125 @@
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .modal-overlay .searchBox{
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .modal-container {
+    background-color: white;
+    width: 600px;
+    padding: 2em 2em;
+    border-radius: 5px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    outline: none;
+  }
+  
+  .modal-container .mheader button.close-button {
+    background-color: transparent;
+    border: none;
+    font-size: 1.5em;
+    cursor: pointer;
+    background-color: #f2f5f6;
+    border-radius: 2em;
+  }
+  
+  .modal-container .mfooter button.publish-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    background-color: #2bc3e6;
+    color: white;
+    padding: .5em .5em;
+    font-weight: bold;
+    margin-right: .5em;
+    border-radius: .5em;
+  }
+  
+  .modal-container .mfooter button.delete-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    background-color: #ef2f38;
+    color: white;
+    padding: .5em .5em;
+    font-weight: bold;
+    margin-right: .5em;
+    border-radius: .5em;
+  }
+  
+
+  .mheader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .mbody {
+    text-align: left;
+    margin-top: 2em;
+    color: gray;
+    font-weight: bold;
+  }
+  
+  .mcontent {
+    padding: 1em .5em;
+    border: 2px dashed black;
+    text-align: left;
+  }
+  
+  .mfooter {
+    margin-top: 1em;
+  }
+  
+  .button_close {
+    text-align: right;
+  }
+  
+  .modal-close {
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .modal-content {
+    padding: 20px;
+  }
+  
+
+  .modal-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+
+  .modal-footer {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+  }
+  
+
+  .modal-button {
+    border: none;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  .modal-button:hover {
+    background-color: #0069d9;
+  }
